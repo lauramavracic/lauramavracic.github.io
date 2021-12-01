@@ -1,0 +1,22 @@
+h1 {
+   text-align: center;
+}
+.chart-container {
+  position: relative;
+  height:40vh;
+  width:80vw;
+  margin: auto;
+} 
+
+#footer-content {
+  position: absolute;
+  bottom: -5vh;
+  width: 100%;
+  height: 60px; 
+} 
+
+#head {
+    padding:10px;
+    padding-bottom:60px;
+}
+

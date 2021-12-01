@@ -1,0 +1,77 @@
+h1, h3 {
+    color: white;
+    text-align: center;
+}
+
+head {
+    background-color: blue;
+}
+
+#mp{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+
+}
+
+img {
+    
+}
+
+#header {
+    padding: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('http://www.hdwallpaperspulse.com/wp-content/uploads/2016/05/28/cloudy-weather-beautiful-landscape-wallpaper.jpeg');
+    background-position: 20%;
+    background-size: auto;
+    margin-bottom: 7%;
+}
+
+#profpic {
+    display: float;
+    border-radius: 70%;
+    max-width: 275px;
+    max-height: 275px;
+    background-color: #58b36cbb;
+    padding: 15px;
+    float: left;
+    margin: 40px;
+}
+
+.bottomp {
+    margin-bottom: 7%;
+}
+
+#myport {
+    text-align: center;
+    text-decoration: solid;
+    padding-bottom: 30px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    background-color: #58b36cbb;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+#grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#pic {
+    text-align: center;
+}
