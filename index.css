@@ -20,8 +20,9 @@ head {
     padding: 60px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/04/Landscape-wallpapers-HD-free-download-768x480.jpg');
-    background-position: 50%;
-    background-size: auto;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 775px;
     margin-bottom: 7%;
 }
 
