@@ -3,8 +3,15 @@ h1, h3 {
     text-align: center;
 }
 
-head {
-    background-color: blue;
+h2 {
+    background-color: rgb(182, 196, 223);
+    padding: 20px;
+    color: white;
+}
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 2.2;
 }
 
 #mp{
@@ -21,8 +28,7 @@ head {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/04/Landscape-wallpapers-HD-free-download-768x480.jpg');
     background-size: 100%;
-    background-position-x: center;
-    background-position-y: 775px;
+    background-position: center;
     margin-bottom: 7%;
 }
 
@@ -31,7 +37,7 @@ head {
     border-radius: 70%;
     max-width: 275px;
     max-height: 275px;
-    background-color: #58b36cbb;
+    background-color: rgb(182, 196, 223);
     padding: 15px;
     float: left;
     margin: 40px;
@@ -55,12 +61,13 @@ head {
 #grid-container {
     display: grid;
     grid-template-columns:  auto auto auto;
-    background-color: #58b36cbb;
+    background-color: rgb(182, 196, 223);
     grid-gap: 10px;
     padding: 10px;
 }
 
 #grid-container > div {
+    display:grid;
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px;
