@@ -20,7 +20,7 @@ head {
     padding: 60px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/04/Landscape-wallpapers-HD-free-download-768x480.jpg');
-    background-position: 20%;
+    background-position: 50%;
     background-size: auto;
     margin-bottom: 7%;
 }
@@ -34,6 +34,11 @@ head {
     padding: 15px;
     float: left;
     margin: 40px;
+}
+
+#chart {
+    max-width: 700px;
+    max-height: 700px;
 }
 
 .bottomp {
