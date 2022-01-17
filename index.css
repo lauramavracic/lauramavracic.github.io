@@ -1,9 +1,21 @@
 h1 {
-    font-size: larger;
+    font-size: 50px;
 }
+
 h1, h3 {
     color: white;
     text-align: center;
+    transition: transform .2s; /* Animation */
+
+}
+
+h1:hover {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    transform: scale(1.5); 
+    
+
+
 }
 
 h2 {
@@ -12,6 +24,24 @@ h2 {
     color: white;
     text-align: center;
 }
+
+#profpic {
+    display: float;
+    border-radius: 70%;
+    max-width: 275px;
+    max-height: 275px;
+    background-color: rgb(182, 196, 223);
+    padding: 15px;
+    float: left;
+    margin: 40px;
+    transition: transform .2s; /* Animation */
+}
+
+#profpic:hover {
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4E03AQGZj4al6vCVJA/profile-displayphoto-shrink_400_400/0/1641360731596?e=1648080000&v=beta&t=9owzwujbvFzsSI1hnP2bYaoxqy3h380M5GZxAiU5fGY");
+    transform: scale(1.2); 
+}
+
 p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
@@ -36,20 +66,14 @@ p {
     margin-bottom: 7%;
 }
 
-#profpic {
-    display: float;
-    border-radius: 70%;
-    max-width: 275px;
-    max-height: 275px;
-    background-color: rgb(182, 196, 223);
-    padding: 15px;
-    float: left;
-    margin: 40px;
-}
 
 #chart {
     max-width: 700px;
     max-height: 700px;
+}
+
+#chart:hover {
+    transform: scale(1.1); 
 }
 
 .bottomp {
@@ -84,9 +108,6 @@ p {
     width: 50%;
 }
 
-#pic {
-    text-align: center;
-}
 
 #st {
     font-size: 20px;
